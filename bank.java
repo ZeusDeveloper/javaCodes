@@ -64,7 +64,7 @@ class Main
 		System.out.println("---SAVINGS ACCOUNT---");
 		savings sc = new savings(1453232,15000,5);
 		sc.intCalc();
-		sc.withdrawal(1200);
+		sc.withdrawal(12000);
 		System.out.println("---CURRENT ACCOUNT---");
 		current curr = new current(1453223,10000,5);
 		curr.withdrawal(35000);
