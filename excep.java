@@ -5,7 +5,7 @@ class excep
 		try
 		{
 			int a=args.length;
-			System.out.println("Length -"+a);
+			System.out.println("Length - "+a);
 			int b=42/a;
 			try
 			{
