@@ -1,7 +1,7 @@
 import java.io.*;
 class MyException extends Exception
 {
-	int detail;
+	int detail;static final long serialVersionUID=111;
 	MyException(int x)
 	{
 		detail=x;
