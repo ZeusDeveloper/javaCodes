@@ -7,7 +7,7 @@ class freq
 		String str;
 		Scanner sc= new Scanner(System.in);
 		System.out.print("Enter the string - ");
-		str = sc.next();
+		str = sc.nextLine();
 		for(char c='a';c<='z';c++)
 		{
 			for(int i=0;i<str.length();i++)
